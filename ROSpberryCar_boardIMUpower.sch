@@ -1,0 +1,180 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:raspi_conn
+LIBS:SparkFun
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_2 P4
+U 1 1 5293B202
+P 5850 2550
+F 0 "P4" V 5800 2550 40  0000 C CNN
+F 1 "CONN_2" V 5900 2550 40  0000 C CNN
+F 2 "" H 5850 2550 60  0000 C CNN
+F 3 "" H 5850 2550 60  0000 C CNN
+	1    5850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L RASPI_CONN P3
+U 1 1 5293BE6B
+P 4100 3100
+F 0 "P3" H 4050 3850 60  0000 C CNN
+F 1 "RASPI_CONN" V 4100 3100 50  0000 C CNN
+F 2 "" H 4100 3100 60  0000 C CNN
+F 3 "" H 4100 3100 60  0000 C CNN
+	1    4100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_5 P1
+U 1 1 5293C3D9
+P 2350 2550
+F 0 "P1" V 2300 2550 50  0000 C CNN
+F 1 "CONN_5" V 2400 2550 50  0000 C CNN
+F 2 "" H 2350 2550 60  0000 C CNN
+F 3 "" H 2350 2550 60  0000 C CNN
+	1    2350 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_5 P5
+U 1 1 5293C5B2
+P 5850 3400
+F 0 "P5" V 5800 3400 50  0000 C CNN
+F 1 "CONN_5" V 5900 3400 50  0000 C CNN
+F 2 "" H 5850 3400 60  0000 C CNN
+F 3 "" H 5850 3400 60  0000 C CNN
+	1    5850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_5 P2
+U 1 1 5293C671
+P 2350 3550
+F 0 "P2" V 2300 3550 50  0000 C CNN
+F 1 "CONN_5" V 2400 3550 50  0000 C CNN
+F 2 "" H 2350 3550 60  0000 C CNN
+F 3 "" H 2350 3550 60  0000 C CNN
+	1    2350 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2650 4750 2650
+Wire Wire Line
+	5500 2450 4750 2450
+Wire Wire Line
+	4750 2450 4750 2550
+Connection ~ 4750 2450
+Wire Wire Line
+	2750 2450 3450 2450
+Wire Wire Line
+	3450 2550 2750 2550
+Wire Wire Line
+	2750 2650 3450 2650
+Wire Wire Line
+	3450 2750 2750 2750
+Wire Wire Line
+	3450 2850 3100 2850
+Wire Wire Line
+	3100 2350 2750 2350
+Wire Wire Line
+	4950 3300 5450 3300
+Wire Wire Line
+	5450 3500 5200 3500
+Wire Wire Line
+	5200 3500 5200 2750
+Wire Wire Line
+	5200 2750 4750 2750
+Wire Wire Line
+	4750 2850 5300 2850
+Wire Wire Line
+	5300 2850 5300 3400
+Wire Wire Line
+	5300 3400 5450 3400
+Wire Wire Line
+	4750 2950 5400 2950
+Wire Wire Line
+	5400 2950 5400 3600
+Wire Wire Line
+	5400 3600 5450 3600
+Wire Wire Line
+	3100 2850 3100 2350
+Wire Wire Line
+	2750 3350 3450 3350
+Wire Wire Line
+	3450 3450 2750 3450
+Wire Wire Line
+	2750 3550 3450 3550
+Wire Wire Line
+	4750 3550 4850 3550
+Wire Wire Line
+	4850 3550 4850 3750
+Wire Wire Line
+	4850 3750 3150 3750
+Wire Wire Line
+	3150 3750 3150 3650
+Wire Wire Line
+	3150 3650 2750 3650
+Wire Wire Line
+	3450 3650 3450 3850
+Wire Wire Line
+	3450 3850 2950 3850
+Wire Wire Line
+	2950 3850 2950 3750
+Wire Wire Line
+	2950 3750 2750 3750
+Wire Wire Line
+	5450 3200 5450 3050
+Wire Wire Line
+	5450 3050 4750 3050
+Wire Wire Line
+	4950 3300 4950 3950
+Wire Wire Line
+	4950 3950 2150 3950
+Wire Wire Line
+	2150 3950 2150 3250
+Wire Wire Line
+	2150 3250 3450 3250
+$EndSCHEMATC
