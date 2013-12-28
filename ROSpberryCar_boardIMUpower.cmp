@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Qui 26 Dez 2013 18:06:42 WET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sex 27 Dez 2013 23:52:24 WET
 
 BeginCmp
 TimeStamp = /52BC6AF9;
@@ -22,7 +22,7 @@ IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
-TimeStamp = /52BC6FC3;
+TimeStamp = /52BE1349;
 Reference = D1;
 ValeurCmp = LED;
 IdModule  = LED-0603;
@@ -36,17 +36,17 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5293C3D9;
+TimeStamp = /52BE0C7F;
 Reference = P1;
-ValeurCmp = CONN_5;
-IdModule  = SparkFun-1X05_LOCK_LONGPADS;
+ValeurCmp = CONN_4;
+IdModule  = SparkFun-1X04-SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52BC68DE;
+TimeStamp = /52BE0CAF;
 Reference = P2;
 ValeurCmp = CONN_6;
-IdModule  = PIN_ARRAY-6X1;
+IdModule  = SparkFun-1X06_LOCK;
 EndCmp
 
 BeginCmp
@@ -64,29 +64,15 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5293C5B2;
+TimeStamp = /52BE0C95;
 Reference = P5;
-ValeurCmp = CONN_5;
-IdModule  = PIN_ARRAY_5x1;
+ValeurCmp = CONN_4;
+IdModule  = SparkFun-1X04_LOCK;
 EndCmp
 
 BeginCmp
-TimeStamp = /52BC5E4A;
+TimeStamp = /52BE134F;
 Reference = R1;
-ValeurCmp = R;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /52BC5DB6;
-Reference = R2;
-ValeurCmp = R;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /52BC6FC9;
-Reference = R3;
 ValeurCmp = R;
 IdModule  = SM0603;
 EndCmp
